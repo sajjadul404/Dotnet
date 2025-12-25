@@ -3,8 +3,15 @@ class Test
 {
     public static void Main(string[] args)
     {  
-        string? studentName = Console.ReadLine();
-        Console.WriteLine("Student Name: " + studentName);
+
+
+        string? studentName;
+        int studentAge;
+        Console.WriteLine("Enter your name:");
+        studentName = Console.ReadLine();
+
+        Console.WriteLine("Enter your age:");
+        studentAge = Convert.ToInt32(Console.ReadLine());
 
     }
 }
