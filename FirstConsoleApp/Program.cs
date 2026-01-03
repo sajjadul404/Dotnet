@@ -15,8 +15,8 @@ class Test
         int Mul = number1 * number2;
         Console.WriteLine("Mul : " + Mul);
 
-        int Div = number1 / number2;
-        Console.WriteLine("Div : " + Div);
+        double Div = (double)number1 / number2;
+        Console.WriteLine("Div : " + Div.ToString("F2"));
 
         int Mod = number1 % number2;
         Console.WriteLine("Mod : " + Mod);
