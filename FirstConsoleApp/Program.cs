@@ -1,26 +1,27 @@
 ﻿using System;
+using System.Data;
+using System.Diagnostics.CodeAnalysis;
 class Test
 {
     public static void Main(string[] args)
     {  
-        int number1 = 10;
-        int number2 = 3;
+        int number1,number2,number3;
+        double average;
 
-        int sum = number1 + number2;
-        Console.WriteLine("sum : " + sum);
+        Console.Write("number1 = ");
+        number1 = Convert.ToInt32(Console.ReadLine());
 
-        int Sub = number1 - number2;
-        Console.WriteLine("Sub : " + Sub);
+        Console.Write("number2 = ");
+        number2 = Convert.ToInt32(Console.ReadLine());
 
-        int Mul = number1 * number2;
-        Console.WriteLine("Mul : " + Mul);
+        Console.Write("number3 = ");
+        number3 = Convert.ToInt32(Console.ReadLine());
 
-        double Div = (double)number1 / number2;
-        Console.WriteLine("Div : " + Div.ToString("F2")
-        );
+        int Sum = number1 + number2 + number3;
+        Console.WriteLine($"Sum = {Sum}");
 
-        int Mod = number1 % number2;
-        Console.WriteLine("Mod : " + Mod);
+        average = (double)Sum / 3;
+        Console.WriteLine($"average = {average.ToString("F2")}");
 
     }
 }
