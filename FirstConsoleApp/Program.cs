@@ -6,14 +6,12 @@ class Test
     public static void Main(string[] args)
     {  
     
-    double Radius, Area;
-    Console.WriteLine("Area of Circle Calculator");
+    double  Fahreheit, Celsius;
+    Console.Write("Fahreheit Temperature : ");
+    Fahreheit = Convert.ToDouble(Console.ReadLine());
 
-    Console.Write("Radius: ");
-    Radius = Convert.ToDouble(Console.ReadLine());
-
-    Area = 3.116 * Radius * Radius;
-    Console.WriteLine($"Area: {Area.ToString("F2")}");
+    Celsius = (Fahreheit - 32) * 5 / 9;
+    Console.WriteLine($"Celsius Temperature = {Celsius.ToString("F2")}");
 
 
     }
