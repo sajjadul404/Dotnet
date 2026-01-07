@@ -6,17 +6,15 @@ class Test
     public static void Main(string[] args)
     {  
     
-    double baseLength, hight, TriangleArea;
-    Console.WriteLine("Triangle Area Calculator");
+    double Radius, Area;
+    Console.WriteLine("Area of Circle Calculator");
 
-    Console.Write("Base: ");
-    baseLength = Convert.ToDouble(Console.ReadLine());
+    Console.Write("Radius: ");
+    Radius = Convert.ToDouble(Console.ReadLine());
 
-    Console.Write("Height: ");
-    hight = Convert.ToDouble(Console.ReadLine());
+    Area = 3.116 * Radius * Radius;
+    Console.WriteLine($"Area: {Area.ToString("F2")}");
 
-    TriangleArea = (baseLength * hight) / 2;
-    Console.WriteLine($"Triangle Area is: {TriangleArea.ToString("F2")}");
 
     }
 }
