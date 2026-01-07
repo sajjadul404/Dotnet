@@ -5,23 +5,18 @@ class Test
 {
     public static void Main(string[] args)
     {  
-        int number1,number2,number3;
-        double average;
+    
+    double baseLength, hight, TriangleArea;
+    Console.WriteLine("Triangle Area Calculator");
 
-        Console.Write("number1 = ");
-        number1 = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Base: ");
+    baseLength = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("number2 = ");
-        number2 = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Height: ");
+    hight = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("number3 = ");
-        number3 = Convert.ToInt32(Console.ReadLine());
-
-        int Sum = number1 + number2 + number3;
-        Console.WriteLine($"Sum = {Sum}");
-
-        average = (double)Sum / 3;
-        Console.WriteLine($"average = {average.ToString("F2")}");
+    TriangleArea = (baseLength * hight) / 2;
+    Console.WriteLine($"Triangle Area is: {TriangleArea.ToString("F2")}");
 
     }
 }
