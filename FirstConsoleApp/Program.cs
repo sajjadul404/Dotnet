@@ -8,10 +8,10 @@ class Test
     
     double  Fahreheit, Celsius;
     Console.Write("Fahreheit Temperature : ");
-    Fahreheit = Convert.ToDouble(Console.ReadLine());
+    Celsius = Convert.ToDouble(Console.ReadLine());
 
-    Celsius = (Fahreheit - 32) * 5 / 9;
-    Console.WriteLine($"Celsius Temperature = {Celsius.ToString("F2")}");
+    Fahreheit = 1.8*Celsius + 32;
+    Console.WriteLine($"Fahreheit Temperature = {Fahreheit.ToString("F2")}");
 
 
     }
