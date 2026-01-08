@@ -6,12 +6,22 @@ class Test
     public static void Main(string[] args)
     {  
     
-    double  Fahreheit, Celsius;
-    Console.Write("Fahreheit Temperature : ");
-    Celsius = Convert.ToDouble(Console.ReadLine());
+        int number = 20;
 
-    Fahreheit = 1.8*Celsius + 32;
-    Console.WriteLine($"Fahreheit Temperature = {Fahreheit.ToString("F2")}");
+        number += 10;
+        Console.WriteLine($"{number}");
+
+        number -= 5;
+        Console.WriteLine($"{number}");
+
+         number *=2;
+         Console.WriteLine($"{number}");
+
+         number /=5;
+         Console.WriteLine($"{number}");
+
+         number %=6;
+         Console.WriteLine($"{number}");
 
 
     }
