@@ -10,11 +10,11 @@ class Test
         int number2 = 10;
         int number3 = 15;
 
-        Console.WriteLine(number1> number2);
-        Console.WriteLine(number1< number3);
-        Console.WriteLine(number2>= number3);
-        Console.WriteLine(number2<= number1);
-
+        Console.WriteLine(number1 > number2);
+        Console.WriteLine(number1 >= number2);
+        Console.WriteLine(number1 <= number2);
+        Console.WriteLine(number1 == number2);
+        Console.WriteLine(number1 != number2);
 
         }
     }
