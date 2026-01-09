@@ -6,23 +6,15 @@ class Test
     public static void Main(string[] args)
     {  
     
-        int number = 20;
+        int number1 = 20;
+        int number2 = 10;
+        int number3 = 15;
 
-        number += 10;
-        Console.WriteLine($"{number}");
-
-        number -= 5;
-        Console.WriteLine($"{number}");
-
-         number *=2;
-         Console.WriteLine($"{number}");
-
-         number /=5;
-         Console.WriteLine($"{number}");
-
-         number %=6;
-         Console.WriteLine($"{number}");
+        Console.WriteLine(number1> number2);
+        Console.WriteLine(number1< number3);
+        Console.WriteLine(number2>= number3);
+        Console.WriteLine(number2<= number1);
 
 
+        }
     }
-}
