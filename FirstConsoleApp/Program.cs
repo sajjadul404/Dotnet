@@ -1,17 +1,21 @@
 ﻿using System;
-using System.Data;
-using System.Diagnostics.CodeAnalysis;
 class Test
 {
     public static void Main(string[] args)
     {  
     
-        int number1 = 20;
-        int number2 = 10;
-        int number3 = 15;
+        int num1 = 15;
+        int num2 = 12;
+        int result ;
 
-        Console.WriteLine(number1 > number2 && number1 < number3);
-        Console.WriteLine(number1 > number2 || number1 < number3);
+        result = num1 & num2;
+        Console.WriteLine($"{ num1} & {num2} = {result}");
+
+        result = num1 | num2;
+        Console.WriteLine($"{ num1} | {num2} = {result}");
+
+
+
 
 
 
