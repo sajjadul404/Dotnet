@@ -14,10 +14,8 @@ class Test
         result = num1 | num2;
         Console.WriteLine($"{ num1} | {num2} = {result}");
 
-
-
-
-
+        result = num1 ^ num2;
+        Console.WriteLine($"{ num1} ^ {num2} = {result}");
 
         }
     }
