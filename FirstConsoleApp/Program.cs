@@ -6,11 +6,11 @@ class Test
     
         int number = 15;
 
-        Console.WriteLine(++number);
-        Console.WriteLine(number++);
-        Console.WriteLine(number);
-        Console.WriteLine(number--);
-        Console.WriteLine(--number);
+        Console.WriteLine(++number); // 16
+        Console.WriteLine(number++); // 16
+        Console.WriteLine(number);   // 17
+        Console.WriteLine(number--); //17
+        Console.WriteLine(--number); //15
 
 
         }
