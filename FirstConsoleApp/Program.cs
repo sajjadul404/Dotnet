@@ -4,24 +4,14 @@ class Test
     public static void Main(string[] args)
     {  
     
-        int num1 = 15;
-        int num2 = 12;
-        int result ;
+        int number = 15;
 
-        result = num1 & num2;
-        Console.WriteLine($"{ num1} & {num2} = {result}");
+        Console.WriteLine(++number);
+        Console.WriteLine(number++);
+        Console.WriteLine(number);
+        Console.WriteLine(number--);
+        Console.WriteLine(--number);
 
-        result = num1 | num2;
-        Console.WriteLine($"{ num1} | {num2} = {result}");
-
-        result = num1 ^ num2;
-        Console.WriteLine($"{ num1} ^ {num2} = {result}");
-
-        result = num1 >> 2;
-        Console.WriteLine($"{ num1} >> 2 = {result}");
-
-        result = num1 << 2;
-        Console.WriteLine($"{ num1} << 2 = {result}");
 
         }
     }
