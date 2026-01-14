@@ -4,8 +4,11 @@ class Test
     public static void Main(string[] args)
     {  
     
-        int result = 9>3 ? 9:8;
-        Console.WriteLine(result);
+        int number1 = 10;
+        int number2 = 20;
+
+        int large = number1 > number2 ? number1 : number2;
+        Console.WriteLine(large);
 
 
         }
