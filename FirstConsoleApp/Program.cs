@@ -4,12 +4,21 @@ class Test
     public static void Main(string[] args)
     {  
     
-        int number1 = 10;
-        int number2 = 20;
+        int number = 30;
+        if (number > 0)
+        {
+            Console.WriteLine("Posative Number");
+        }
+        else if (number < 0)
+        {
+            Console.WriteLine("Negative Number");
+        }
+        else
+        {
+            Console.WriteLine("Zero");
 
-        int large = number1 > number2 ? number1 : number2;
-        Console.WriteLine(large);
 
 
         }
     }
+}
