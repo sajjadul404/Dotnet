@@ -4,7 +4,8 @@ class Test
     public static void Main(string[] args)
     {  
     
-        int number = 30;
+        Console.Write("Enter a Nulmber:");
+        int number = Convert.ToInt32(Console.ReadLine());
         if (number > 0)
         {
             Console.WriteLine("Posative Number");
