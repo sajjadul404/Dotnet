@@ -3,19 +3,27 @@ class Test
 {
     public static void Main(string[] args)
     {  
-    
-        Console.Write("Enter a Nulmber:");
-        int number = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter a Number1:");
+        int number1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter a Number2:");
+        int number2 = Convert.ToInt32(Console.ReadLine());
 
 
-        if (number % 2 == 0)
+        if (number1 > number2)
         {
-            Console.WriteLine("The number is Even");
+            Console.WriteLine($"{number1} is large number");
+        }
+        else if (number2 > number1)
+        {
+            Console.WriteLine($"{number2} is large number");
         }
         else
         {
-            Console.WriteLine("The number is Odd");
+            Console.WriteLine("Both numbers are equal");
         }
+
         
     }
 }
