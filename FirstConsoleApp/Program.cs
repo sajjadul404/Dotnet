@@ -10,18 +10,20 @@ class Test
         Console.Write("Enter a Number2:");
         int number2 = Convert.ToInt32(Console.ReadLine());
 
+        Console.Write("Enter a Number3:");
+        int number3 = Convert.ToInt32(Console.ReadLine());
 
-        if (number1 < number2)
+
+        if (number1 > number2 && number1 > number3)
         {
             Console.WriteLine($"{number1} is large number");
         }
-        else if (number2 < number1)
+        else if (number2 > number1 && number2 > number3)
         {
             Console.WriteLine($"{number2} is large number");
         }
-        else
-        {
-            Console.WriteLine("Both numbers are equal");
+       else  {
+            Console.WriteLine($"{number3} is large number");
         }
 
         
