@@ -48,6 +48,5 @@ class Test
             Console.WriteLine($"{marks} Invalid Marks");
         }
         
-  
     }
 }
