@@ -4,50 +4,28 @@ class Test
     public static void Main(string[] args)
     {  
     
-     Console.Write("Enter your Marks: ");
-     double marks = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Enter Year:");
+        int year = Convert.ToInt32(Console.ReadLine());
 
-    char Grade;
-     if (marks >= 0 && marks <= 100)
+        if(year % 4 == 0)
         {
-            if (marks >= 90)
-            {
-                Grade = 'A';
-            }
-            else if (marks >= 80)
-            {
-                Grade = 'A';
-            }
-            else if (marks >= 70)
-            {
-                Grade = 'B';
-            }
-            else if (marks >= 60)
-            {
-                Grade = 'B';
-            }
-            else if (marks >= 50)
-            {
-                Grade = 'C';
-            }
-            else if (marks >= 40)
-            {
-                Grade = 'C';
-            }
-            else if (marks >= 33)
-            {
-                Grade = 'D';
-            }
-            else
-            {
-                Grade = 'F';
-            }
-            Console.WriteLine($"Your Grade is = {Grade}");
-        } 
+            Console.WriteLine("{0} is a Leap Year", year);
+        }
+        else if(year % 100 == 0)
+        {
+            Console.WriteLine("{0} is not a Leap Year", year);
+        }
+        else if(year % 400 == 0 && year % 100 == 0)
+        {
+            Console.WriteLine("{0} is a Leap Year", year);
+        }
         else
         {
-            Console.WriteLine($"{marks} Invalid Marks");
+            Console.WriteLine("{0} is not a Leap Year", year);
         }
-        
+
+    
+     Console.Write("Enter your Marks: ");
+     double marks = Convert.ToDouble(Console.ReadLine());
     }
 }
