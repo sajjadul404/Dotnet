@@ -8,17 +8,14 @@ class Test
         Console.Write("Enter any letter:");
         letter = Convert.ToChar(Console.ReadLine());
 
-        if(letter >= 'A' && letter <= 'Z')
+        if(letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' ||
+           letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
         {
-            Console.WriteLine($"{letter} is Capital Letter");
-        }
-        else if(letter >= 'a' && letter <= 'z')
-        {
-            Console.WriteLine($"{letter} is Small Letter");
+            Console.WriteLine("The letter is a Vowel.");
         }
         else
         {
-            Console.WriteLine("Invalid Input");
+            Console.WriteLine("The letter is a Consonant.");
         }
     }
 }
