@@ -3,29 +3,22 @@ class Test
 {
     public static void Main(string[] args)
     {  
-    
-    Console.WriteLine("Enter Year:");
-        int year = Convert.ToInt32(Console.ReadLine());
+        char letter;
 
-        if(year % 4 == 0)
+        Console.Write("Enter any letter:");
+        letter = Convert.ToChar(Console.ReadLine());
+
+        if(letter >= 'A' && letter <= 'Z')
         {
-            Console.WriteLine("{0} is a Leap Year", year);
+            Console.WriteLine($"{letter} is Capital Letter");
         }
-        else if(year % 100 == 0)
+        else if(letter >= 'a' && letter <= 'z')
         {
-            Console.WriteLine("{0} is not a Leap Year", year);
-        }
-        else if(year % 400 == 0 && year % 100 == 0)
-        {
-            Console.WriteLine("{0} is a Leap Year", year);
+            Console.WriteLine($"{letter} is Small Letter");
         }
         else
         {
-            Console.WriteLine("{0} is not a Leap Year", year);
+            Console.WriteLine("Invalid Input");
         }
-
-    
-     Console.Write("Enter your Marks: ");
-     double marks = Convert.ToDouble(Console.ReadLine());
     }
 }
