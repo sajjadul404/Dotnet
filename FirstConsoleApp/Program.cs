@@ -1,47 +1,32 @@
 ﻿using System;
+using System.Security.Cryptography;
 class Test
 {
     public static void Main(string[] args)
     {  
 
-        int digit;
-        Console.Write("Enter a digit:");
-        digit = Convert.ToInt32(Console.ReadLine());
+        char letter;
+        Console.Write("Enter a letter:");
+        letter = Convert.ToChar(Console.ReadLine());
 
-        switch (digit)
+        switch (char.ToLower(letter))
         {
-            case 0:
-                Console.WriteLine("Zero");
-                break;
-            case 1:
-                Console.WriteLine("One");
-                break;
-            case 2:
-                Console.WriteLine("Two");
-                break;
-            case 3:
-                Console.WriteLine("Three");
-                break;
-            case 4:
-                Console.WriteLine("Four");
-                break;
-            case 5:
-                Console.WriteLine("Five");
-                break;
-            case 6:
-                Console.WriteLine("Six");
-                break;
-            case 7:
-                Console.WriteLine("Seven");
-                break; 
-            case 8:     
-                Console.WriteLine("Eight");
-                break;
-            case 9:
-                Console.WriteLine("Nine");
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+                Console.WriteLine($"{letter} is a vowel");
                 break;
             default:
-                Console.WriteLine("Not a digit");
+                if (char.IsLetter(letter))
+                {
+                    Console.WriteLine($"{letter} is a consonant");
+                }
+                else
+                {
+                    Console.WriteLine($"{letter} is not a letter");
+                }
                 break;
                 
         }
