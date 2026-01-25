@@ -5,30 +5,27 @@ class Test
     public static void Main(string[] args)
     {  
 
-        char letter;
-        Console.Write("Enter a letter:");
-        letter = Convert.ToChar(Console.ReadLine());
+       Console.Write("Enter a day of weak : ");
+       string day = Console.ReadLine();
 
-        switch (char.ToLower(letter))
+        switch (day.ToLower())
         {
-            case 'a':
-            case 'e':
-            case 'i':
-            case 'o':
-            case 'u':
-                Console.WriteLine($"{letter} is a vowel");
-                break;
+            case "monday":
+            case "tuesday":
+            case "wednesday":
+            case "thursday":
+            case "friday":
+            Console.WriteLine("It's a weekday.");
+            break;
+            case "saturday":
+            case "sunday":
+            Console.WriteLine("It's a weekend.");
+            break;
             default:
-                if (char.IsLetter(letter))
-                {
-                    Console.WriteLine($"{letter} is a consonant");
-                }
-                else
-                {
-                    Console.WriteLine($"{letter} is not a letter");
-                }
-                break;
-                
+            Console.WriteLine("Invalid day entered.");
+            break; 
         }
+                
+        
     }
 }
