@@ -5,21 +5,23 @@ class Test
 {
     public static void Main(string[] args)
     {
-        object number = 42;
-        switch (number)
+        Console.WriteLine("Enter a Number 1 to 10:");
+        int Number = Convert.ToInt32(Console.ReadLine());
+
+        switch (Number)
         {
-            case int:
-                Console.WriteLine("It's an integer.");
+            case int num when num < 1 && num > 10:
+                Console.WriteLine("Number is out of range.");
                 break;
-            case string:
-                Console.WriteLine("It's a string.");    
+                case int num when num % 2 == 0:
+                Console.WriteLine("Number is Even.");
                 break;
-                case double:
-                Console.WriteLine("It's a double.");
+            case int num when num % 2 != 0:
+                Console.WriteLine("Number is Odd.");
                 break;
             default:
-                Console.WriteLine("It's of an unknown type.");
-                break;
+                Console.WriteLine("Invalid Input.");
+                break;       
         }
     }
 }
