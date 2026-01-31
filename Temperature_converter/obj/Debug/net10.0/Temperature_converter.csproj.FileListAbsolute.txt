@@ -1,0 +1,15 @@
+D:\Dotnet\Temperature_converter\bin\Debug\net10.0\Temperature_converter.exe
+D:\Dotnet\Temperature_converter\bin\Debug\net10.0\Temperature_converter.deps.json
+D:\Dotnet\Temperature_converter\bin\Debug\net10.0\Temperature_converter.runtimeconfig.json
+D:\Dotnet\Temperature_converter\bin\Debug\net10.0\Temperature_converter.dll
+D:\Dotnet\Temperature_converter\bin\Debug\net10.0\Temperature_converter.pdb
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\Temperature_converter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\Temperature_converter.AssemblyInfoInputs.cache
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\Temperature_converter.AssemblyInfo.cs
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\Temperature_converter.csproj.CoreCompileInputs.cache
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\Temperature_converter.sourcelink.json
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\Temperature_converter.dll
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\refint\Temperature_converter.dll
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\Temperature_converter.pdb
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\Temperature_converter.genruntimeconfig.cache
+D:\Dotnet\Temperature_converter\obj\Debug\net10.0\ref\Temperature_converter.dll
