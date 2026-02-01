@@ -13,7 +13,7 @@ class Test
             case int num when num < 1 && num > 10:
                 Console.WriteLine("Number is out of range.");
                 break;
-                case int num when num % 2 == 0:
+            case int num when num % 2 == 0:
                 Console.WriteLine("Number is Even.");
                 break;
             case int num when num % 2 != 0:
