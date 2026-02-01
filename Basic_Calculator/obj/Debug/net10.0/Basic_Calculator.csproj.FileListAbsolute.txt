@@ -1,0 +1,15 @@
+D:\Dotnet\Basic_Calculator\bin\Debug\net10.0\Basic_Calculator.exe
+D:\Dotnet\Basic_Calculator\bin\Debug\net10.0\Basic_Calculator.deps.json
+D:\Dotnet\Basic_Calculator\bin\Debug\net10.0\Basic_Calculator.runtimeconfig.json
+D:\Dotnet\Basic_Calculator\bin\Debug\net10.0\Basic_Calculator.dll
+D:\Dotnet\Basic_Calculator\bin\Debug\net10.0\Basic_Calculator.pdb
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\Basic_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\Basic_Calculator.AssemblyInfoInputs.cache
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\Basic_Calculator.AssemblyInfo.cs
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\Basic_Calculator.csproj.CoreCompileInputs.cache
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\Basic_Calculator.sourcelink.json
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\Basic_Calculator.dll
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\refint\Basic_Calculator.dll
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\Basic_Calculator.pdb
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\Basic_Calculator.genruntimeconfig.cache
+D:\Dotnet\Basic_Calculator\obj\Debug\net10.0\ref\Basic_Calculator.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Dotnet\\Basic_Calculator\\Basic_Calculator.csproj": {}
+    "D:\\Dotnet\\Basic_Calculator\\Basic_Calculator.csproj": {}
   },
   "projects": {
-    "d:\\Dotnet\\Basic_Calculator\\Basic_Calculator.csproj": {
+    "D:\\Dotnet\\Basic_Calculator\\Basic_Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Dotnet\\Basic_Calculator\\Basic_Calculator.csproj",
+        "projectUniqueName": "D:\\Dotnet\\Basic_Calculator\\Basic_Calculator.csproj",
         "projectName": "Basic_Calculator",
-        "projectPath": "d:\\Dotnet\\Basic_Calculator\\Basic_Calculator.csproj",
+        "projectPath": "D:\\Dotnet\\Basic_Calculator\\Basic_Calculator.csproj",
         "packagesPath": "C:\\Users\\surface\\.nuget\\packages\\",
-        "outputPath": "d:\\Dotnet\\Basic_Calculator\\obj\\",
+        "outputPath": "D:\\Dotnet\\Basic_Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
