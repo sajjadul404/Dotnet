@@ -6,7 +6,7 @@ class Calculator
         Double number1, number2;
         char operation;
 
-        Console.Write("Enter an Operation: ");
+        Console.Write("Enter an Operation(+,-,*,/): ");
         operation = Convert.ToChar(Console.ReadLine());
 
         Console.Write("Enter Number1: ");
