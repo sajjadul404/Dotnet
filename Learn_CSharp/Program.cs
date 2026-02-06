@@ -5,7 +5,9 @@ class Test
 {
     public static void Main(string[] args)
     {
-        for (int i = 0; i < 10; i++)
+        Console.Write("Enter your Num:");
+        int n = Convert.ToInt32(Console.ReadLine());
+        for (int i = 0; i < n; i++)
         {
             Console.WriteLine($"{i}: Sajjadul Islam");
         }
