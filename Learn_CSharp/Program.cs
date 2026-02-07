@@ -13,7 +13,10 @@ class Test
             {
                 Console.WriteLine($"{i}: Odd");
             }
-            
+            else
+            {
+                Console.WriteLine($"{i}: Even");
+            }
         }
     }
 }
