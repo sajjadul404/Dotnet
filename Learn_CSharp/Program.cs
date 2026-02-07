@@ -7,9 +7,12 @@ class Test
     {
         Console.Write("Enter your Num:");
         int n = Convert.ToInt32(Console.ReadLine());
-        for (int i = 0; i < n; i++)
+        for (int i = 1; i <= n; i++)
         {
-            Console.WriteLine($"{i}: Sajjadul Islam");
+            if (i % 2 == 0)
+            {
+                Console.WriteLine($"{i}: Even");
+            }
         }
     }
 }
