@@ -5,9 +5,15 @@ class Test
 {
     public static void Main(string[] args)
     {
-        Console.Write("Enter your Num:");
-        int n = Convert.ToInt32(Console.ReadLine());
-        for (int i = 1; i <= n; i=i+3)
+        Console.Write("Enter The Start Num:");
+        int start = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter The End Num:");
+        int end = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter The diff Num:");
+        int diff = Convert.ToInt32(Console.ReadLine());
+        for (int i = start; i <= end; i=i+diff)
         {
             Console.WriteLine(i);
         }
