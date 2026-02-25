@@ -5,12 +5,13 @@ class Test
 {
     public static void Main(string[] args)
     {
-        int i =14;
-        do
+        for(int  i=1; i<=100; i++)
         {
-            Console.Write(i+" ");
-            i++;
+            if (i == 50)
+            {
+                break;
+            }
+            Console.WriteLine(i);
         }
-        while (i <= 19);
     }
 }
