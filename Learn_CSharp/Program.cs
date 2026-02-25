@@ -9,7 +9,7 @@ class Test
         {
             if (i == 50)
             {
-                break;
+                continue;
             }
             Console.WriteLine(i);
         }
