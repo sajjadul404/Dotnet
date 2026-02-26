@@ -1,0 +1,15 @@
+D:\Dotnet\Multiplication_Table\bin\Debug\net10.0\Multiplication_Table.exe
+D:\Dotnet\Multiplication_Table\bin\Debug\net10.0\Multiplication_Table.deps.json
+D:\Dotnet\Multiplication_Table\bin\Debug\net10.0\Multiplication_Table.runtimeconfig.json
+D:\Dotnet\Multiplication_Table\bin\Debug\net10.0\Multiplication_Table.dll
+D:\Dotnet\Multiplication_Table\bin\Debug\net10.0\Multiplication_Table.pdb
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\Multiplication_Table.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\Multiplication_Table.AssemblyInfoInputs.cache
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\Multiplication_Table.AssemblyInfo.cs
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\Multiplication_Table.csproj.CoreCompileInputs.cache
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\Multiplication_Table.sourcelink.json
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\Multiplication_Table.dll
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\refint\Multiplication_Table.dll
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\Multiplication_Table.pdb
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\Multiplication_Table.genruntimeconfig.cache
+D:\Dotnet\Multiplication_Table\obj\Debug\net10.0\ref\Multiplication_Table.dll
