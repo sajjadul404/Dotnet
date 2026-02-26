@@ -5,13 +5,12 @@ class Test
 {
     public static void Main(string[] args)
     {
-        for(int  i=1; i<=100; i++)
+       for (int i=1; i <= 3; i++)
         {
-            if (i == 50)
+            for(int j =1; j <=6; j++)
             {
-                continue;
+                Console.WriteLine("Bangladesh");
             }
-            Console.WriteLine(i);
         }
     }
 }
