@@ -9,7 +9,7 @@ class Test
         {
             for(int j =1; j <=6; j++)
             {
-                Console.WriteLine("Bangladesh");
+                Console.WriteLine($"i={i}, j={j}: Bangladesh");
             }
         }
     }
