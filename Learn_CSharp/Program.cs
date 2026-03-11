@@ -5,12 +5,13 @@ class Test
 {
     public static void Main(string[] args)
     {
-       for (int i=1; i <= 3; i++)
-        {
-            for(int j =1; j <=6; j++)
-            {
-                Console.WriteLine($"i={i}, j={j}: Bangladesh");
-            }
-        }
+        int number1, number2, result;
+       
+        number1 = 10;
+        number2 = 20;
+        result = number1 + number2;
+        Console.WriteLine($"The sum is {result}");
+
+
     }
 }
