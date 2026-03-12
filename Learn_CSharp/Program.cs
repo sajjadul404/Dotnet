@@ -20,17 +20,12 @@ class Test
     public static void Main(string[] args)
     {
         Messege("Welcome to Calculator");
-        int number1, number2, result;
-       
-        number1 = 10;
-        number2 = 20;
-        Add(number1, number2);
-        Sub(number1, number2);
+    
+        Add(10, 20);
+        Sub(50, 20);
 
-        number1 = 50;
-        number2 = 20;
-        Add(number1, number2);
-        Sub(number1, number2);
-
+        Add(80, 20);
+        Sub(80, 20);
+        Messege("Thank you");
     }
 }
