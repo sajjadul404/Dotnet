@@ -7,35 +7,23 @@ class Test
     {
         Console.WriteLine(text);
     }
-    public static void Add()
+    public static void Add(int number1, int number2)
     {
-        Console.WriteLine("Adding");
+        int result = number1 + number2;
+        Console.WriteLine($"{number1} + {number2} = {result}");
     }
     public static void Main(string[] args)
     {
         Messege("Welcome to Calculator");
-        // int number1, number2, result;
+        int number1, number2, result;
        
-        // number1 = 10;
-        // number2 = 20;
-        // result = number1 + number2;
-        // Console.WriteLine($"{number1} + {number2} = {result}");
+        number1 = 10;
+        number2 = 20;
+        Add(number1, number2);
 
-        // number1 = 50;
-        // number2 = 20;
-        // result = number1 + number2;
-        // Console.WriteLine($"{number1} + {number2} = {result}");
-
-        // number1 = 50;
-        // number2 = 20;
-        // result = number1 - number2;
-        // Console.WriteLine($"{number1} - {number2} = {result}");
-
-        // number1 = 80;
-        // number2 = 20;
-        // result = number1 - number2;
-        // Console.WriteLine($"{number1} - {number2} = {result}");
-        Messege("Thank you");
+        number1 = 50;
+        number2 = 20;
+        Add(number1, number2);
 
     }
 }
