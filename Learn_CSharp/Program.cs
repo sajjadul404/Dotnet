@@ -17,6 +17,11 @@ class Test
         int result = number1 - number2;
         Console.WriteLine($"{number1} - {number2} = {result}");
     }
+    public static int Squre(int number)
+    {
+        return number * number;
+        
+    }
     public static void Main(string[] args)
     {
         Messege("Welcome to Calculator");
@@ -26,6 +31,9 @@ class Test
 
         Add(80, 20);
         Sub(80, 20);
+
+        int result = Squre(5);
+        Console .WriteLine($"Squre of 5 is {result}");
         Messege("Thank you");
     }
 }
