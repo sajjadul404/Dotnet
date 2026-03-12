@@ -10,7 +10,22 @@ class Test
         number1 = 10;
         number2 = 20;
         result = number1 + number2;
-        Console.WriteLine($"The sum is {result}");
+        Console.WriteLine($"{number1} + {number2} = {result}");
+
+        number1 = 50;
+        number2 = 20;
+        result = number1 + number2;
+        Console.WriteLine($"{number1} + {number2} = {result}");
+
+        number1 = 50;
+        number2 = 20;
+        result = number1 - number2;
+        Console.WriteLine($"{number1} - {number2} = {result}");
+
+        number1 = 80;
+        number2 = 20;
+        result = number1 - number2;
+        Console.WriteLine($"{number1} - {number2} = {result}");
 
 
     }
