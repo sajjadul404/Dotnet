@@ -3,9 +3,9 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 class Test
 {
-    public static void Greeting()
+    public static void Messege(string text)
     {
-        Console.WriteLine("Welcome to Calculator");
+        Console.WriteLine(text);
     }
     public static void Add()
     {
@@ -13,7 +13,7 @@ class Test
     }
     public static void Main(string[] args)
     {
-        Greeting();
+        Messege("Welcome to Calculator");
         // int number1, number2, result;
        
         // number1 = 10;
@@ -35,7 +35,7 @@ class Test
         // number2 = 20;
         // result = number1 - number2;
         // Console.WriteLine($"{number1} - {number2} = {result}");
-
+        Messege("Thank you");
 
     }
 }
