@@ -7,6 +7,7 @@
             Console.WriteLine($"Enter a number from 1 to 5");
             String input = Console.ReadLine() ?? "";
 
+            input = input.ToLower();
             if (input == "quit")
             {
                 Console.WriteLine("Thanks for using your app Goodbye!");
