@@ -18,7 +18,6 @@
                 Console.WriteLine("Please enter a valaid input");
                 continue;
             }
-
             int square = number * number;
             Console.WriteLine($"The square of {number} is {square}");
         }
