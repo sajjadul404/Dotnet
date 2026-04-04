@@ -13,11 +13,13 @@
                 Console.WriteLine("Thanks for using your app Goodbye!");
                 break;
             }
+
             if (int.TryParse(input, out int number))
             {
                 Console.WriteLine("Please enter a valaid input");
                 continue;
             }
+            
             int square = number * number;
             Console.WriteLine($"The square of {number} is {square}");
         }
