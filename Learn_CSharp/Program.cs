@@ -1,5 +1,6 @@
 ﻿public class MyClass
 {
+    
     public static void Main(string[] args)
     {
         while (true)
