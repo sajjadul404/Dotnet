@@ -38,8 +38,7 @@ class Calculator
                 break;
             default:
                 Console.WriteLine("Invalid Operation");
-                break;
-                
+                break;       
         }
 
     }
