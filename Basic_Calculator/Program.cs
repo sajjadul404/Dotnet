@@ -40,6 +40,5 @@ class Calculator
                 Console.WriteLine("Invalid Operation");
                 break;       
         }
-
     }
 }
